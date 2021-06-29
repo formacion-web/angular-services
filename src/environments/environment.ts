@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url:'http://localhost:4200',
+  url_country: 'https://restcountries.eu/rest/v2/all',
+  url_neighbour:'https://api.geodatasource.com/neighbouring-countries?key=7PUKVKJJCBNQHZQOQO3ZJVBCVHZJHTEP&country_code='
 };
 
 /*
